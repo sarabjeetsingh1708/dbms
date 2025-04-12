@@ -9,6 +9,7 @@ import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';  
 import  { RootLayout } from './layouts/rootLayout/RootLayout';
 import { DashboardLayout } from './layouts/dashboardLayout/DashboardLayout';
+import React from 'react';
 
 
 
@@ -45,6 +46,7 @@ const Router = createBrowserRouter(
       ],
     },
   ]);
+  
 
 function App() {
   return (
